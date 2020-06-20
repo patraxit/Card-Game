@@ -15,7 +15,7 @@ package ca.sheridancollege.project;
 public class Card 
 {
      public enum Suit{DIAMONDS,HEARTS,SPADES,CLUBS};
-        public enum Value{ZERO,ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,SKIP,REVERSE,DRAW_TWO,DRAW_FOUR,WILD};
+        public enum Value{TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,TEN,JACK,QUEEN,KING,ACE};
         private final Suit suit;
         private final Value value;
         
